@@ -26,13 +26,14 @@ import com.stauto.utils.ObjectRepository;
 import com.stauto.utils.WaitFor;
 
 public class UIKeywords {
-	
+
 	public static RemoteWebDriver driver;
 	static ChromeOptions options = new ChromeOptions();
 	public static Logger log;
-	 {
-		log=LogManager.getLogger(this.getClass());
+	{
+		log = LogManager.getLogger(this.getClass());
 	}
+
 	public static void openBrowse(String browserName) {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
@@ -48,6 +49,11 @@ public class UIKeywords {
 
 	}
 
+	/**
+	 * This method is for launching browser
+	 * 
+	 * @param env
+	 */
 	public static void launchAppURL(String env) {
 		openBrowse(Envirnoment.getBrowserName());
 		maximizeBrowser();
