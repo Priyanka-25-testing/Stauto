@@ -1,0 +1,1 @@
+{"uuid":"fda5a963-6587-44fe-9c2b-4ddcbc76f88c","name":"stauto.BaseClass.setUp","children":["247e4a36-6ba8-43dd-a91e-c2f865fa4c01"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1723558905365,"stop":1723558918916}],"afters":[],"start":1723558905364,"stop":1723558918917}

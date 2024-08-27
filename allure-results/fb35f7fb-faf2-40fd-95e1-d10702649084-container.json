@@ -1,0 +1,1 @@
+{"uuid":"fb35f7fb-faf2-40fd-95e1-d10702649084","name":"stauto.BaseClass.tearDown","children":["247e4a36-6ba8-43dd-a91e-c2f865fa4c01"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1723558926568,"stop":1723558927001}],"start":1723558926568,"stop":1723558927001}

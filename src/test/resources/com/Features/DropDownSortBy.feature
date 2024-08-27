@@ -1,7 +1,7 @@
 Feature: SortBy drop dwon selection
 
-Scenario: Low to High filter 
 
+Scenario: Low to High filter 
 And search for perticular item   
 And I click on sort by drop down and click on Low to High option
 Then I verify price of items are sorted in low to high order
